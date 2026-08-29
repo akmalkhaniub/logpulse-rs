@@ -25,11 +25,6 @@ pub struct ParsedLogRecord {
     pub bytes: u64,
 }
 
-pub enum LogFormat {
-    Auto,
-    Json,
-    Common,
-}
 
 /// Parses a single line from a log file into a structured record.
 pub fn parse_log_line(line: &str) -> Option<ParsedLogRecord> {
