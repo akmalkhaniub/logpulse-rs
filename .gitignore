@@ -4,3 +4,6 @@ Cargo.lock
 !sample.log
 .idea/
 .vscode/
+
+*.log
+sample.log
